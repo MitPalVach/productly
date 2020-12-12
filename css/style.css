@@ -249,28 +249,138 @@ button {
     top: 9px;
 }
 
+/*Team*/
+
+.team {
+    background: url("../images/team-bg.svg") no-repeat top center;
+    background-size: cover;
+}
+
+.team__inner {
+    padding: 230px 0 380px;
+    position: relative;
+}
+
+.team__item {
+    position: absolute;
+    width: 98px;
+    height: 98px;
+}
+
+.team__item--1 {
+    top: 157px;
+    right: 95px;
+
+}
+
+.team__item--2 {
+    top: 223px;
+    left: 0;
+}
+
+.team__item--3 {
+    bottom: 257px;
+    right: 0;
+}
+
+.team__item--4 {
+    bottom: 223px;
+    left: 210px;
+}
+
+.team__item--5 {
+    bottom: 135px;
+    right: 300px;
+}
+
+.team__item-img {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.team__box {
+    text-align: center;
+    max-width: 542px;
+    margin: 0 auto;
+}
+
+.team__title {
+    margin-bottom: 22px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.team__text {
+    color: #567592;
+    margin-bottom: 45px;
+}
+
+.team__btn {
+    background: #FF9900;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 15px 30px 14px;
+}
+
+.team__item-text {
+    background: #ffffff;
+    padding: 14px 20px 15px;
+    color: #2F281E;
+    box-shadow: 0 2px 15px rgba(23, 58, 86, .1);
+    border-radius: 26px;
+    position: absolute;
+    top: -30px;
+    right: 75px;
+    white-space: nowrap;
+}
+
+.team__item-text.team__item-text--left {
+    top: -41px;
+    right: auto;
+    left: 62px;
+}
+
+.team__item-text--right::before,
+.team__item-text--right::after,
+.team__item-text--left::before,
+.team__item-text--left::after {
+    content: '';
+    position: absolute;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.team__item-text--right::after,
+.team__item-text--left::after{
+    width: 17px;
+    height: 17px;
+    bottom: -7px;
+    right: 30px;
+}
 
 
+.team__item-text--right::before,
+.team__item-text--left::before{
+    width: 9px;
+    height: 9px;
+    bottom: -18px;
+    right: 9px;
+}
 
+.team__item-text--left::before {
+    left: 9px;
+    right: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.team__item-text--left::after {
+    left: 30px;
+    right: auto;
+}
 
 
 
