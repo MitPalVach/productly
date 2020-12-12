@@ -40,6 +40,44 @@ button {
     margin-left: auto;
 }
 
+/*Burger Button*/
+
+.menu__btn {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.menu__btn span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #000000;
+    position: absolute;
+    left: 0;
+    top: 14px;
+}
+
+.menu__btn::after,
+.menu__btn::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background: #000;
+    left: 0;
+}
+
+.menu__btn::before {
+    top: 0;
+}
+
+.menu__btn::after {
+    bottom: 0;
+}
+
+/*Burger Button END*/
+
 .menu__list {
     display: flex;
 }
@@ -527,66 +565,4 @@ button {
     padding: 8px 15px 7px;
     border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
