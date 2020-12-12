@@ -382,13 +382,19 @@ button {
     right: auto;
 }
 
+/*blog*/
 
+.blog {
+    padding: 30px 0 120px;
+}
 
+.blog__title {
+    margin-bottom: 9px;
+}
 
-
-
-
-
+.blog__text {
+    margin-bottom: 55px;
+}
 
 
 
